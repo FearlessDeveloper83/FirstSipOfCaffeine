@@ -1,0 +1,12 @@
+# Java compiled output
+bin/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VS Code Java server files (optional)
+.vscode/*.log
