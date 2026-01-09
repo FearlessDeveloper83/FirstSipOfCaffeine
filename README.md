@@ -1,18 +1,35 @@
 ## Getting Started
 
-Trying out Java on VS Code for the first time (I'll admit this is a template, which I modified as per my liking, plus I have OOP in this language as one of my uni-courses, so as I go further and further, will build future projects and commit, stage, update and publish accordingly. Cheers, let me sip on my 6th cup of coffee.
+This is my first time setting up and experimenting with **Java in VS Code**. I started with the default Java project template and then modified it slightly to understand how things work under the hood.
+
+Java is one of my core subjects this semester, especially for **Object-Oriented Programming (OOP)**, so this repository will grow as I learn new concepts. Over time, I plan to build small programs, mini-projects, and practice exercises, and regularly **commit, stage, update, and publish** my progress using Git.
+
+This project is mainly for learning, experimentation, and building a strong foundation in Java development.
+
+---
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+The workspace follows a simple structure that is easy to understand for beginners:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src` — contains all the Java source code files (`.java`)
+- `lib` — used for external libraries or dependencies (if required later)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+When the program is compiled, the output files (`.class`) are automatically generated inside the `bin` folder.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+This structure helps keep source code and compiled files organized and separate, which is useful as projects become larger.
+
+> If needed, the folder structure can be customized by editing the `.vscode/settings.json` file.
+
+---
 
 ## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+VS Code provides a **JAVA PROJECTS** panel that helps manage libraries and dependencies in a visual way. As a beginner, this makes it easier to add or remove dependencies without manually configuring everything.
+
+For more details, refer to:  
+https://github.com/microsoft/vscode-java-dependency#manage-dependencies
+
+---
+
+This setup serves as a starting point for my journey as a first-year student developer and will evolve as I progress through my coursework and gain more hands-on experience.
